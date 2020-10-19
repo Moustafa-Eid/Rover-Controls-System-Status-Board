@@ -283,159 +283,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="CGA1A2X7R1H471K030BA">
-<packages>
-<package name="CAP_0603_TDK">
-<smd name="1" x="-0.4445" y="0" dx="0.4572" dy="0.3302" layer="1"/>
-<smd name="2" x="0.4445" y="0" dx="0.4572" dy="0.3302" layer="1"/>
-<wire x1="-1.4224" y1="0" x2="-1.5748" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.5748" y1="0" x2="-1.4224" y2="0" width="0.1524" layer="21" curve="-180"/>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<wire x1="-0.2032" y1="-0.1524" x2="-0.2032" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.2032" y1="0.1524" x2="-0.3048" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="-0.1524" x2="-0.2032" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.2032" y1="0.1778" x2="0.2286" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.2286" y1="-0.1524" x2="0.3048" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.1524" x2="0.3048" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.1778" x2="0.2032" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.2032" y1="-0.1524" x2="0.2286" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="-0.1524" x2="0.3048" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.1524" x2="-0.2032" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="0.1524" x2="-0.3048" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="0" x2="-0.4064" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-0.4064" y1="0" x2="-0.254" y2="0" width="0" layer="51" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.1651" y="0.1143"/>
-<vertex x="0.1651" y="0.1143"/>
-<vertex x="0.1651" y="-0.1143"/>
-<vertex x="-0.1651" y="-0.1143"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-<package name="CAP_0603_TDK-M">
-<smd name="1" x="-0.5461" y="0" dx="0.6604" dy="0.381" layer="1"/>
-<smd name="2" x="0.5461" y="0" dx="0.6604" dy="0.381" layer="1"/>
-<wire x1="-1.6256" y1="0" x2="-1.778" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.778" y1="0" x2="-1.6256" y2="0" width="0.1524" layer="21" curve="-180"/>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<wire x1="-0.2032" y1="-0.1524" x2="-0.2032" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.2032" y1="0.1524" x2="-0.3048" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="-0.1524" x2="-0.2032" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.2032" y1="0.1778" x2="0.2286" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.2286" y1="-0.1524" x2="0.3048" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="-0.1524" x2="0.3302" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3302" y1="-0.1524" x2="0.3048" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.1778" x2="0.2032" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.2032" y1="-0.1524" x2="0.2286" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="-0.1524" x2="0.3048" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.1524" x2="-0.2032" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="0.1524" x2="-0.3048" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.3556" y1="0" x2="-0.508" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-0.508" y1="0" x2="-0.3556" y2="0" width="0" layer="51" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.1651" y="0.1143"/>
-<vertex x="0.1651" y="0.1143"/>
-<vertex x="0.1651" y="-0.1143"/>
-<vertex x="-0.1651" y="-0.1143"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-<package name="CAP_0603_TDK-L">
-<smd name="1" x="-0.3429" y="0" dx="0.254" dy="0.2794" layer="1"/>
-<smd name="2" x="0.3429" y="0" dx="0.254" dy="0.2794" layer="1"/>
-<wire x1="-1.2192" y1="0" x2="-1.3716" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.3716" y1="0" x2="-1.2192" y2="0" width="0.1524" layer="21" curve="-180"/>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<wire x1="-0.2032" y1="-0.1524" x2="-0.2032" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.2032" y1="0.1524" x2="-0.3048" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="-0.1524" x2="-0.2032" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.2032" y1="0.1778" x2="0.2286" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.2286" y1="-0.1524" x2="0.3048" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="-0.1524" x2="0.3302" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3302" y1="-0.1524" x2="0.3048" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.1778" x2="0.2032" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.2032" y1="-0.1524" x2="0.2286" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="-0.1524" x2="0.3048" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.1524" x2="-0.2032" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="0.1524" x2="-0.3048" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.1524" y1="0" x2="-0.3048" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-0.3048" y1="0" x2="-0.1524" y2="0" width="0" layer="51" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.1651" y="0.1143"/>
-<vertex x="0.1651" y="0.1143"/>
-<vertex x="0.1651" y="-0.1143"/>
-<vertex x="-0.1651" y="-0.1143"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-</packages>
-<symbols>
-<symbol name="CAPH">
-<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
-<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CGA1A2X7R1H471K030BA" prefix="C">
-<gates>
-<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="CAP_0603_TDK">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA1A2X7R1H471K030BA" constant="no"/>
-<attribute name="SOURCELIBRARY" value="TDK_2015_05_22" constant="no"/>
-<attribute name="VENDOR" value="TDK" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="CAP_0603_TDK-M" package="CAP_0603_TDK-M">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA1A2X7R1H471K030BA" constant="no"/>
-<attribute name="SOURCELIBRARY" value="TDK_2015_05_22" constant="no"/>
-<attribute name="VENDOR" value="TDK" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="CAP_0603_TDK-L" package="CAP_0603_TDK-L">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA1A2X7R1H471K030BA" constant="no"/>
-<attribute name="SOURCELIBRARY" value="TDK_2015_05_22" constant="no"/>
-<attribute name="VENDOR" value="TDK" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="UWX1H2R2MCL1GB">
 <packages>
 <package name="PCAP_4X5.4-ELECT_NCA">
@@ -1475,6 +1322,158 @@ Grid 5.08 mm&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="1206AA471JAT1A">
+<packages>
+<package name="CAP_1206_AVX">
+<smd name="1" x="-1.5028" y="0" dx="1.1056" dy="1.8" layer="1"/>
+<smd name="2" x="1.5028" y="0" dx="1.1056" dy="1.8" layer="1"/>
+<wire x1="-0.635" y1="-1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.016" x2="-0.635" y2="1.016" width="0.1524" layer="21"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="-0.9398" y1="-0.889" x2="-0.9398" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.9398" y1="0.889" x2="-1.7018" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="-0.889" x2="-0.9398" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="0.889" x2="0.9398" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="-0.889" x2="1.7018" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="0.889" x2="0.9398" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.9398" y1="-0.889" x2="0.9398" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="-0.889" x2="1.7018" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="0.889" x2="-0.9398" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="0.889" x2="-1.7018" y2="-0.889" width="0.1524" layer="51"/>
+<polygon width="0.0254" layer="41">
+<vertex x="-0.8992" y="0.8492"/>
+<vertex x="0.8992" y="0.8492"/>
+<vertex x="0.8992" y="-0.8492"/>
+<vertex x="-0.8992" y="-0.8492"/>
+</polygon>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="CAP_1206_AVX-M">
+<smd name="1" x="-1.6044" y="0" dx="1.3088" dy="1.8508" layer="1"/>
+<smd name="2" x="1.6044" y="0" dx="1.3088" dy="1.8508" layer="1"/>
+<wire x1="-0.635" y1="-1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.016" x2="-0.635" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-3.0226" y1="0" x2="-3.175" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.175" y1="0" x2="-3.0226" y2="0" width="0.1524" layer="21" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="-0.9398" y1="-0.889" x2="-0.9398" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.9398" y1="0.889" x2="-1.7018" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="-0.889" x2="-0.9398" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="0.889" x2="0.9398" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="-0.889" x2="1.7018" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="0.889" x2="0.9398" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.9398" y1="-0.889" x2="0.9398" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="-0.889" x2="1.7018" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="0.889" x2="-0.9398" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="0.889" x2="-1.7018" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-1.397" y1="0" x2="-1.5494" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-1.5494" y1="0" x2="-1.397" y2="0" width="0" layer="51" curve="-180"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.8992" y="0.8492"/>
+<vertex x="0.8992" y="0.8492"/>
+<vertex x="0.8992" y="-0.8492"/>
+<vertex x="-0.8992" y="-0.8492"/>
+</polygon>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="CAP_1206_AVX-L">
+<smd name="1" x="-1.4012" y="0" dx="0.9024" dy="1.7492" layer="1"/>
+<smd name="2" x="1.4012" y="0" dx="0.9024" dy="1.7492" layer="1"/>
+<wire x1="-0.6604" y1="-1.016" x2="0.6604" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.6604" y1="1.016" x2="-0.6604" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-2.6162" y1="0" x2="-2.7686" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.7686" y1="0" x2="-2.6162" y2="0" width="0.1524" layer="21" curve="-180"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="-0.9398" y1="-0.889" x2="-0.9398" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.9398" y1="0.889" x2="-1.7018" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="-0.889" x2="-0.9398" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="0.889" x2="0.9398" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="-0.889" x2="1.7018" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="0.889" x2="0.9398" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.9398" y1="-0.889" x2="0.9398" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="-0.889" x2="1.7018" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="0.889" x2="-0.9398" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="0.889" x2="-1.7018" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-1.1938" y1="0" x2="-1.3462" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-1.3462" y1="0" x2="-1.1938" y2="0" width="0" layer="51" curve="-180"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.8992" y="0.8492"/>
+<vertex x="0.8992" y="0.8492"/>
+<vertex x="0.8992" y="-0.8492"/>
+<vertex x="-0.8992" y="-0.8492"/>
+</polygon>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CAPH">
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+<text x="-5.1562" y="-5.5372" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="-4.0894" y="2.0828" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1206AA471JAT1A" prefix="C">
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="CAP_1206_AVX">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1206AA471JAT1A" constant="no"/>
+<attribute name="SOURCELIBRARY" value="AVX_2015_05_20" constant="no"/>
+<attribute name="VENDOR" value="AVX Corporation" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CAP_1206_AVX-M" package="CAP_1206_AVX-M">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1206AA471JAT1A" constant="no"/>
+<attribute name="SOURCELIBRARY" value="AVX_2015_05_20" constant="no"/>
+<attribute name="VENDOR" value="AVX Corporation" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CAP_1206_AVX-L" package="CAP_1206_AVX-L">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1206AA471JAT1A" constant="no"/>
+<attribute name="SOURCELIBRARY" value="AVX_2015_05_20" constant="no"/>
+<attribute name="VENDOR" value="AVX Corporation" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1486,7 +1485,6 @@ Grid 5.08 mm&lt;p&gt;
 </classes>
 <parts>
 <part name="U1" library="MIC5219-5.0YM5-TR" deviceset="MIC5219-5.0YM5-TR" device=""/>
-<part name="470PF" library="CGA1A2X7R1H471K030BA" deviceset="CGA1A2X7R1H471K030BA" device=""/>
 <part name="C1" library="UWX1H2R2MCL1GB" deviceset="UWX1H2R2MCL1GB" device=""/>
 <part name="U2" library="74HCT4053D" deviceset="74HCT4053D" device=""/>
 <part name="U3" library="74HCT4053D" deviceset="74HCT4053D" device=""/>
@@ -1520,6 +1518,7 @@ Grid 5.08 mm&lt;p&gt;
 <part name="X2" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1"/>
 <part name="X3" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1"/>
 <part name="X4" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-02P" device="" package3d_urn="urn:adsk.eagle:package:10734/1"/>
+<part name="C2" library="1206AA471JAT1A" deviceset="1206AA471JAT1A" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1529,9 +1528,6 @@ Grid 5.08 mm&lt;p&gt;
 <instance part="U1" gate="A" x="-20.32" y="71.12" smashed="yes">
 <attribute name="NAME" x="2.8956" y="80.2386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="2.2606" y="77.6986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
-</instance>
-<instance part="470PF" gate="A" x="38.1" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.0172" y="49.2506" size="3.4798" layer="95" ratio="10" rot="SR90"/>
 </instance>
 <instance part="C1" gate="A" x="45.72" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.3428" y="67.5894" size="3.4798" layer="95" ratio="10" rot="SR270"/>
@@ -1660,6 +1656,9 @@ Grid 5.08 mm&lt;p&gt;
 <attribute name="VALUE" x="287.02" y="63.5" size="1.778" layer="96"/>
 <attribute name="NAME" x="285.75" y="61.849" size="1.778" layer="95" rot="R180"/>
 </instance>
+<instance part="C2" gate="A" x="35.56" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="33.4772" y="51.7906" size="3.4798" layer="95" ratio="10" rot="SR90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1686,11 +1685,6 @@ Grid 5.08 mm&lt;p&gt;
 <pinref part="U1" gate="A" pin="GND"/>
 <wire x1="-17.78" y1="68.58" x2="-22.86" y2="68.58" width="0.1524" layer="91"/>
 <label x="-22.86" y="68.58" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="470PF" gate="A" pin="1"/>
-<wire x1="38.1" y1="55.88" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
-<label x="38.1" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C1" gate="A" pin="2"/>
@@ -1888,13 +1882,10 @@ Grid 5.08 mm&lt;p&gt;
 <wire x1="281.94" y1="7.62" x2="274.32" y2="7.62" width="0.1524" layer="91"/>
 <label x="274.32" y="7.62" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$1" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="BYP"/>
-<wire x1="33.02" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="470PF" gate="A" pin="2"/>
-<wire x1="38.1" y1="66.04" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C2" gate="A" pin="1"/>
+<wire x1="35.56" y1="55.88" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
+<label x="35.56" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -1967,11 +1958,6 @@ Grid 5.08 mm&lt;p&gt;
 <pinref part="U2" gate="A" pin="1Y0"/>
 <wire x1="152.4" y1="27.94" x2="160.02" y2="27.94" width="0.1524" layer="91"/>
 <label x="157.48" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U4" gate="A" pin="1Y0"/>
-<wire x1="152.4" y1="104.14" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
-<label x="157.48" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R2" gate="A" pin="2"/>
@@ -2347,6 +2333,11 @@ Grid 5.08 mm&lt;p&gt;
 <wire x1="243.84" y1="111.76" x2="251.46" y2="111.76" width="0.1524" layer="91"/>
 <label x="248.92" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="A" pin="1Y0"/>
+<wire x1="152.4" y1="104.14" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
+<label x="157.48" y="104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$29" class="0">
 <segment>
@@ -2362,9 +2353,30 @@ Grid 5.08 mm&lt;p&gt;
 <wire x1="226.06" y1="127" x2="231.14" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="BYP"/>
+<pinref part="C2" gate="A" pin="2"/>
+<wire x1="33.02" y1="66.04" x2="35.56" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="66.04" x2="35.56" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,101.6,22.86,U2,VEE,GND,,,"/>
+<approved hash="104,1,152.4,38.1,U2,VCC,5V,,,"/>
+<approved hash="104,1,101.6,60.96,U3,VEE,GND,,,"/>
+<approved hash="104,1,152.4,76.2,U3,VCC,5V,,,"/>
+<approved hash="104,1,101.6,99.06,U4,VEE,GND,,,"/>
+<approved hash="202,1,152.4,96.52,U4,S3,,,,"/>
+<approved hash="104,1,152.4,114.3,U4,VCC,5V,,,"/>
+<approved hash="113,1,288.097,35.56,X1,,,,,"/>
+<approved hash="113,1,288.097,45.72,X2,,,,,"/>
+<approved hash="113,1,288.097,55.88,X3,,,,,"/>
+<approved hash="113,1,288.097,66.04,X4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

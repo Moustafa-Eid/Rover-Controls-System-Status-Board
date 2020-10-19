@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -75,9 +75,60 @@
 <plain>
 <wire x1="90.17" y1="75.964328125" x2="90.17" y2="5.08" width="0" layer="20"/>
 <wire x1="90.17" y1="5.08" x2="143.49" y2="5.08" width="0" layer="20"/>
-<wire x1="143.49" y1="5.08" x2="143.49" y2="97.46" width="0" layer="20"/>
-<wire x1="143.49" y1="97.46" x2="111.665671875" y2="97.46" width="0" layer="20"/>
-<wire x1="111.665671875" y1="97.46" x2="90.17" y2="75.964328125" width="0" layer="20" curve="90"/>
+<wire x1="143.49" y1="5.08" x2="143.49" y2="99.46" width="0" layer="20"/>
+<wire x1="143.49" y1="99.46" x2="111.665671875" y2="99.46" width="0" layer="20"/>
+<wire x1="111.665671875" y1="99.46" x2="90.17" y2="75.964328125" width="0" layer="20" curve="90"/>
+<text x="131.8" y="13.7" size="1.6764" layer="25" font="vector"> Front
+Camera</text>
+<text x="132.1" y="25.4" size="1.6764" layer="25" font="vector"> Back
+Camera</text>
+<text x="132" y="37.1" size="1.6764" layer="25" font="vector"> Third
+Camera</text>
+<text x="131.5" y="49" size="1.6764" layer="25" font="vector"> Jetson
+  Nano</text>
+<text x="130.8" y="61.2" size="1.4224" layer="25" font="vector">    12V
+Step-Down</text>
+<text x="131" y="73.7" size="1.6764" layer="25" font="vector">Encoders</text>
+<text x="133.8" y="85" size="1.6764" layer="25" font="vector">Arm</text>
+<text x="133.1" y="96.2" size="1.6764" layer="25" font="vector">Drive</text>
+<text x="100.3" y="32.9" size="1.016" layer="25" font="vector" rot="R180">Power 
+Input</text>
+<text x="90.8" y="6.2" size="0.8128" layer="25" font="vector">Controls System Status Board
+Board Created By: Moustafa Eid
+Date Created: 10-19-2020</text>
+<text x="109.7" y="16.8" size="0.6096" layer="25">470 pF Bypass Capacitor</text>
+<text x="108.4" y="12.6" size="0.6096" layer="25">2.2 uF Output Capacitor</text>
+<text x="103.7" y="21.5" size="1.016" layer="25">MIC5219-5-0YM5-TR
+  12V to 5V LDO</text>
+<text x="111.3" y="87.1" size="1.016" layer="25" rot="R270">74HCT4053D</text>
+<text x="111.3" y="69.3" size="1.016" layer="25" rot="R270">74HCT4053D</text>
+<text x="111.3" y="47.7" size="1.016" layer="25" rot="R270">74HCT4053D</text>
+<text x="105.3" y="26.6" size="2.54" layer="25" rot="R90">Vin</text>
+<text x="105.1" y="26.3" size="1.016" layer="25">GND</text>
+<text x="107.9" y="39.9" size="1.6764" layer="25" font="vector" rot="R180">Cam 1</text>
+<text x="107.9" y="44.9" size="1.6764" layer="25" font="vector" rot="R180">Cam 2</text>
+<text x="107.9" y="51.9" size="1.6764" layer="25" font="vector" rot="R180">Cam 3</text>
+<text x="106.9" y="56.9" size="1.6764" layer="25" font="vector" rot="R180">Nano</text>
+<text x="105.9" y="62.9" size="1.6764" layer="25" font="vector" rot="R180">12V</text>
+<text x="105.4" y="67.9" size="1.6764" layer="25" font="vector" rot="R180">Enc</text>
+<text x="105.9" y="74.9" size="1.6764" layer="25" font="vector" rot="R180">Arm</text>
+<text x="107.4" y="79.9" size="1.6764" layer="25" font="vector" rot="R180">Drive</text>
+<text x="124.5" y="14.5" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="7.5" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="19.5" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="26" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="31" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="38" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="43" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="50" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="54.5" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="61.5" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="66.5" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="73.5" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="78" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="85" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="90" size="0.8128" layer="25">91 Ω</text>
+<text x="124.5" y="96.5" size="0.8128" layer="25">91 Ω</text>
 </plain>
 <libraries>
 <library name="MIC5219-5.0YM5-TR">
@@ -120,37 +171,6 @@
 <wire x1="1.016" y1="1.6256" x2="-1.016" y2="1.6256" width="0.1524" layer="21"/>
 <text x="-2.1844" y="1.3208" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-</packages>
-</library>
-<library name="CGA1A2X7R1H471K030BA">
-<packages>
-<package name="CAP_0603_TDK">
-<smd name="1" x="-0.4445" y="0" dx="0.4572" dy="0.3302" layer="1"/>
-<smd name="2" x="0.4445" y="0" dx="0.4572" dy="0.3302" layer="1"/>
-<wire x1="-1.4224" y1="0" x2="-1.5748" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.5748" y1="0" x2="-1.4224" y2="0" width="0.1524" layer="21" curve="-180"/>
-<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<wire x1="-0.2032" y1="-0.1524" x2="-0.2032" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.2032" y1="0.1524" x2="-0.3048" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="-0.1524" x2="-0.2032" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.2032" y1="0.1778" x2="0.2286" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.2286" y1="-0.1524" x2="0.3048" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.1524" x2="0.3048" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.1778" x2="0.2032" y2="0.1778" width="0.1524" layer="51"/>
-<wire x1="-0.2032" y1="-0.1524" x2="0.2286" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="-0.1524" x2="0.3048" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="0.1524" x2="-0.2032" y2="0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="0.1524" x2="-0.3048" y2="-0.1524" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="0" x2="-0.4064" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-0.4064" y1="0" x2="-0.254" y2="0" width="0" layer="51" curve="-180"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.1651" y="0.1143"/>
-<vertex x="0.1651" y="0.1143"/>
-<vertex x="0.1651" y="-0.1143"/>
-<vertex x="-0.1651" y="-0.1143"/>
-</polygon>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
@@ -435,6 +455,34 @@ Grid 5.08 mm&lt;p&gt;
 </package3d>
 </packages3d>
 </library>
+<library name="1206AA471JAT1A">
+<packages>
+<package name="CAP_1206_AVX">
+<smd name="1" x="-1.5028" y="0" dx="1.1056" dy="1.8" layer="1"/>
+<smd name="2" x="1.5028" y="0" dx="1.1056" dy="1.8" layer="1"/>
+<wire x1="-0.635" y1="-1.016" x2="0.635" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.016" x2="-0.635" y2="1.016" width="0.1524" layer="21"/>
+<text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<wire x1="-0.9398" y1="-0.889" x2="-0.9398" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.9398" y1="0.889" x2="-1.7018" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="-0.889" x2="-0.9398" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="0.889" x2="0.9398" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="-0.889" x2="1.7018" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="0.889" x2="0.9398" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-0.9398" y1="-0.889" x2="0.9398" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="-0.889" x2="1.7018" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="0.889" x2="-0.9398" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="0.889" x2="-1.7018" y2="-0.889" width="0.1524" layer="51"/>
+<polygon width="0.0254" layer="41">
+<vertex x="-0.8992" y="0.8492"/>
+<vertex x="0.8992" y="0.8492"/>
+<vertex x="0.8992" y="-0.8492"/>
+<vertex x="-0.8992" y="-0.8492"/>
+</polygon>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -632,42 +680,30 @@ design rules under a new name.</description>
 <attribute name="BUILT_BY" value="EMA_Jessica" x="107.95" y="19.05" size="1.778" layer="27" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="107.95" y="19.05" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MIC5219-5.0YM5-TR" x="107.95" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="104.6734" y="18.415" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Microchip_2019-08-23_3" x="107.95" y="19.05" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Microchip" x="107.95" y="19.05" size="1.778" layer="27" display="off"/>
-</element>
-<element name="470PF" library="CGA1A2X7R1H471K030BA" package="CAP_0603_TDK" value="CGA1A2X7R1H471K030BA" x="110.49" y="16.51" smashed="yes" rot="R90">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="110.49" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CGA1A2X7R1H471K030BA" x="110.49" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="112.395" y="11.9634" size="1.27" layer="25" ratio="6" rot="SR90"/>
-<attribute name="SOURCELIBRARY" value="TDK_2015_05_22" x="110.49" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VENDOR" value="TDK" x="110.49" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C1" library="UWX1H2R2MCL1GB" package="PCAP_4X5.4-ELECT_NCA" value="UWX1H2R2MCL1GB" x="112.8319625" y="9.79854375" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="112.8319625" y="9.79854375" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="UWX1H2R2MCL1GB" x="112.8319625" y="9.79854375" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="109.5553625" y="9.16354375" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Nichicon_2011-10-21" x="112.8319625" y="9.79854375" size="1.778" layer="27" display="off"/>
 <attribute name="VENDOR" value="Nichicon" x="112.8319625" y="9.79854375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U2" library="74HCT4053D" package="SOT109-1_NXP" value="74HCT4053D" x="111.76" y="82.55" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="111.76" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="74HCT4053D" x="111.76" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="115.0366" y="83.185" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="NXP_2011-11-10" x="111.76" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="NXP" x="111.76" y="82.55" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U3" library="74HCT4053D" package="SOT109-1_NXP" value="74HCT4053D" x="111.76" y="64.77" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="120.65" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="74HCT4053D" x="120.65" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="115.0366" y="65.405" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="NXP_2011-11-10" x="120.65" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="NXP" x="120.65" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U4" library="74HCT4053D" package="SOT109-1_NXP" value="74HCT4053D" x="111.76" y="43.18" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="120.65" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="74HCT4053D" x="120.65" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="115.0366" y="43.815" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="NXP_2011-11-10" x="120.65" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="NXP" x="120.65" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -678,13 +714,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="150505M173300" x="135.637165625" y="92.095625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="710-150505M173300" x="135.637165625" y="92.095625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150505M173300?qs=fAHHVMwC%252Bbi%2FURn4Qu0%2FAA%3D%3D" x="135.637165625" y="92.095625" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="135.637165625" y="92.095625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R2" library="RMCF1206JT130R" package="RES_RMCF1206_STP" value="RMCF1206JT130R" x="125.38721875" y="92.109153125" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_Cory" x="125.38721875" y="92.109153125" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="125.38721875" y="92.109153125" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="125.38721875" y="92.109153125" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="128.66381875" y="92.744153125" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="125.38721875" y="92.109153125" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="125.38721875" y="92.109153125" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -692,7 +726,6 @@ design rules under a new name.</description>
 <attribute name="BUILT_BY" value="EMA_Cory" x="125.4186375" y="95.02418125" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="125.4186375" y="95.02418125" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="125.4186375" y="95.02418125" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="128.6952375" y="95.65918125" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="125.4186375" y="95.02418125" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="125.4186375" y="95.02418125" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -703,13 +736,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="150505M173300" x="138.2209375" y="80.525225" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="710-150505M173300" x="138.2209375" y="80.525225" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150505M173300?qs=fAHHVMwC%252Bbi%2FURn4Qu0%2FAA%3D%3D" x="138.2209375" y="80.525225" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="135.637165625" y="80.525225" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R1" library="RMCF1206JT130R" package="RES_RMCF1206_STP" value="RMCF1206JT130R" x="125.573225" y="80.500584375" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.156996875" y="80.500584375" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.156996875" y="80.500584375" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.156996875" y="80.500584375" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="128.849825" y="81.135584375" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.156996875" y="80.500584375" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.156996875" y="80.500584375" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -717,7 +748,6 @@ design rules under a new name.</description>
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.15699375" y="83.516040625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.15699375" y="83.516040625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.15699375" y="83.516040625" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="128.849821875" y="84.151040625" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.15699375" y="83.516040625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.15699375" y="83.516040625" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -728,13 +758,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="150505M173300" x="138.2209375" y="68.751625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="710-150505M173300" x="138.2209375" y="68.751625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150505M173300?qs=fAHHVMwC%252Bbi%2FURn4Qu0%2FAA%3D%3D" x="138.2209375" y="68.751625" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="135.637165625" y="68.751625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R5" library="RMCF1206JT130R" package="RES_RMCF1206_STP" value="RMCF1206JT130R" x="125.57685625" y="68.734128125" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.160628125" y="68.734128125" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.160628125" y="68.734128125" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.160628125" y="68.734128125" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="128.85345625" y="69.369128125" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.160628125" y="68.734128125" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.160628125" y="68.734128125" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -742,7 +770,6 @@ design rules under a new name.</description>
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.147540625" y="71.843090625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.147540625" y="71.843090625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.147540625" y="71.843090625" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="128.84036875" y="72.478090625" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.147540625" y="71.843090625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.147540625" y="71.843090625" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -753,13 +780,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="150505M173300" x="138.2209375" y="56.978025" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="710-150505M173300" x="138.2209375" y="56.978025" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150505M173300?qs=fAHHVMwC%252Bbi%2FURn4Qu0%2FAA%3D%3D" x="138.2209375" y="56.978025" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="135.637165625" y="56.978025" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R7" library="RMCF1206JT130R" package="RES_RMCF1206_STP" value="RMCF1206JT130R" x="125.834990625" y="56.979671875" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.4187625" y="56.979671875" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.4187625" y="56.979671875" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.4187625" y="56.979671875" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="129.111590625" y="57.614671875" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.4187625" y="56.979671875" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.4187625" y="56.979671875" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -767,7 +792,6 @@ design rules under a new name.</description>
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.439871875" y="60.113365625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.439871875" y="60.113365625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.439871875" y="60.113365625" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="129.1327" y="60.748365625" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.439871875" y="60.113365625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.439871875" y="60.113365625" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -778,13 +802,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="150505M173300" x="138.2209375" y="45.204425" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="710-150505M173300" x="138.2209375" y="45.204425" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150505M173300?qs=fAHHVMwC%252Bbi%2FURn4Qu0%2FAA%3D%3D" x="138.2209375" y="45.204425" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="135.637165625" y="45.204425" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R9" library="RMCF1206JT130R" package="RES_RMCF1206_STP" value="RMCF1206JT130R" x="125.98390625" y="45.201121875" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.567678125" y="45.201121875" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.567678125" y="45.201121875" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.567678125" y="45.201121875" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="129.26050625" y="45.836121875" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.567678125" y="45.201121875" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.567678125" y="45.201121875" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -792,7 +814,6 @@ design rules under a new name.</description>
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.540525" y="48.433790625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.540525" y="48.433790625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.540525" y="48.433790625" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="129.233353125" y="49.068790625" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.540525" y="48.433790625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.540525" y="48.433790625" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -803,13 +824,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="150505M173300" x="138.2209375" y="33.430825" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="710-150505M173300" x="138.2209375" y="33.430825" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150505M173300?qs=fAHHVMwC%252Bbi%2FURn4Qu0%2FAA%3D%3D" x="138.2209375" y="33.430825" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="135.637165625" y="33.430825" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R11" library="RMCF1206JT130R" package="RES_RMCF1206_STP" value="RMCF1206JT130R" x="125.93546875" y="33.412015625" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.519240625" y="33.412015625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.519240625" y="33.412015625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.519240625" y="33.412015625" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="129.21206875" y="34.047015625" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.519240625" y="33.412015625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.519240625" y="33.412015625" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -817,7 +836,6 @@ design rules under a new name.</description>
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.462690625" y="36.465090625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.462690625" y="36.465090625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.462690625" y="36.465090625" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="129.15551875" y="37.100090625" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.462690625" y="36.465090625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.462690625" y="36.465090625" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -828,13 +846,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="150505M173300" x="138.2209375" y="21.657225" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="710-150505M173300" x="138.2209375" y="21.657225" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150505M173300?qs=fAHHVMwC%252Bbi%2FURn4Qu0%2FAA%3D%3D" x="138.2209375" y="21.657225" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="135.637165625" y="21.657225" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R13" library="RMCF1206JT130R" package="RES_RMCF1206_STP" value="RMCF1206JT130R" x="125.7181875" y="21.6699" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.301959375" y="21.6699" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.301959375" y="21.6699" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.301959375" y="21.6699" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="128.9947875" y="22.3049" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.301959375" y="21.6699" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.301959375" y="21.6699" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -842,7 +858,6 @@ design rules under a new name.</description>
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.28625" y="24.52500625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.28625" y="24.52500625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.28625" y="24.52500625" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="128.979078125" y="25.16000625" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.28625" y="24.52500625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.28625" y="24.52500625" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -853,13 +868,11 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="150505M173300" x="138.2209375" y="9.883625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="710-150505M173300" x="138.2209375" y="9.883625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150505M173300?qs=fAHHVMwC%252Bbi%2FURn4Qu0%2FAA%3D%3D" x="138.2209375" y="9.883625" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="135.637165625" y="9.883625" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R15" library="RMCF1206JT130R" package="RES_RMCF1206_STP" value="RMCF1206JT130R" x="126.07405625" y="9.88915625" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.657828125" y="9.88915625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.657828125" y="9.88915625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.657828125" y="9.88915625" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="129.35065625" y="10.52415625" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.657828125" y="9.88915625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.657828125" y="9.88915625" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -867,7 +880,6 @@ design rules under a new name.</description>
 <attribute name="BUILT_BY" value="EMA_Cory" x="128.5784" y="13.185615625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="128.5784" y="13.185615625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF1206JT130R" x="128.5784" y="13.185615625" size="0.254" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="129.271228125" y="13.820615625" size="1.27" layer="25" ratio="6" rot="SR180"/>
 <attribute name="SOURCELIBRARY" value="Stackpole_Electronics_2019-07-10_1" x="128.5784" y="13.185615625" size="0.254" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Stackpole" x="128.5784" y="13.185615625" size="0.254" layer="27" rot="R180" display="off"/>
 </element>
@@ -876,7 +888,6 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value=" DUAL ROW RA HEADER TIN 2CKT " x="93.98" y="29.21" size="0.254" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Molex" x="93.98" y="29.21" size="0.254" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="0768250002" x="93.98" y="29.21" size="0.254" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="109.22" y="34.29" size="1.778" layer="25" rot="R270"/>
 <attribute name="PACKAGE" value="None" x="93.98" y="29.21" size="0.254" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="93.98" y="29.21" size="0.254" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="82.55" y="34.29" size="1.778" layer="27" rot="R270"/>
@@ -884,7 +895,6 @@ design rules under a new name.</description>
 <element name="X1" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" package="W237-132" package3d_urn="urn:adsk.eagle:package:10734/1" value="" x="96.52" y="76.2" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="96.52" y="76.2" size="0.254" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="96.52" y="76.2" size="0.254" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="100.838" y="72.39" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="96.52" y="76.2" size="0.254" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="96.52" y="76.2" size="0.254" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="10" x="96.52" y="76.2" size="0.254" layer="27" rot="R90" display="off"/>
@@ -893,7 +903,6 @@ design rules under a new name.</description>
 <element name="X2" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" package="W237-132" package3d_urn="urn:adsk.eagle:package:10734/1" value="" x="96.52" y="64.77" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="96.52" y="64.77" size="0.254" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="96.52" y="64.77" size="0.254" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="100.838" y="60.96" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="96.52" y="64.77" size="0.254" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="96.52" y="64.77" size="0.254" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="10" x="96.52" y="64.77" size="0.254" layer="27" rot="R90" display="off"/>
@@ -902,7 +911,6 @@ design rules under a new name.</description>
 <element name="X3" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" package="W237-132" package3d_urn="urn:adsk.eagle:package:10734/1" value="" x="96.52" y="53.34" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="96.52" y="53.34" size="0.254" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="96.52" y="53.34" size="0.254" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="100.838" y="49.53" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="96.52" y="53.34" size="0.254" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="96.52" y="53.34" size="0.254" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="10" x="96.52" y="53.34" size="0.254" layer="27" rot="R90" display="off"/>
@@ -911,11 +919,17 @@ design rules under a new name.</description>
 <element name="X4" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" package="W237-132" package3d_urn="urn:adsk.eagle:package:10734/1" value="" x="96.52" y="41.91" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="96.52" y="41.91" size="0.254" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="96.52" y="41.91" size="0.254" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="100.838" y="38.1" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="96.52" y="41.91" size="0.254" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="96.52" y="41.91" size="0.254" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="10" x="96.52" y="41.91" size="0.254" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="103.505" y="38.1" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="C2" library="1206AA471JAT1A" package="CAP_1206_AVX" value="1206AA471JAT1A" x="111" y="15.3" smashed="yes">
+<attribute name="BUILT_BY" value="EMA_UL_Team" x="111" y="15.3" size="1.778" layer="27" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="111" y="15.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1206AA471JAT1A" x="111" y="15.3" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCELIBRARY" value="AVX_2015_05_20" x="111" y="15.3" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="AVX Corporation" x="111" y="15.3" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -932,7 +946,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="2"/>
-<contactref element="470PF" pad="1"/>
 <contactref element="C1" pad="2"/>
 <contactref element="U2" pad="7"/>
 <contactref element="U2" pad="8"/>
@@ -1117,7 +1130,7 @@ design rules under a new name.</description>
 <vertex x="104.4" y="31.4"/>
 </polygon>
 <via x="110.1" y="27.8" extent="1-16" drill="0.35"/>
-<via x="107.25" y="11.25" extent="1-16" drill="0.35"/>
+<via x="107.95" y="16.05" extent="1-16" drill="0.35"/>
 <via x="141.335490625" y="56.748628125" extent="1-16" drill="0.35"/>
 <via x="141.2" y="69.9" extent="1-16" drill="0.35"/>
 <via x="141.4" y="80.6" extent="1-16" drill="0.35"/>
@@ -1126,14 +1139,8 @@ design rules under a new name.</description>
 <via x="141.3" y="33.7" extent="1-16" drill="0.35"/>
 <via x="141.2" y="21.3" extent="1-16" drill="0.35"/>
 <via x="141.6" y="9.6" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$1">
-<contactref element="U1" pad="4"/>
-<contactref element="470PF" pad="2"/>
-<wire x1="109.31525" y1="18.1" x2="110.1763125" y2="18.1" width="0.3048" layer="1"/>
-<wire x1="110.49" y1="17.7863125" x2="110.49" y2="17.0053" width="0.3048" layer="1"/>
-<wire x1="110.1763125" y1="18.1" x2="110.49" y2="17.7863125" width="0.3048" layer="1"/>
-<wire x1="110.49" y1="17.0053" x2="110.49" y2="16.9545" width="0" layer="19" extent="1-1"/>
+<via x="116.9" y="8.1" extent="1-16" drill="0.35"/>
+<contactref element="C2" pad="1"/>
 </signal>
 <signal name="5V">
 <contactref element="U1" pad="5"/>
@@ -1276,12 +1283,12 @@ design rules under a new name.</description>
 <wire x1="124.336390625" y1="56.979671875" x2="122.571371875" y2="56.979671875" width="0.508" layer="1"/>
 <wire x1="122.571371875" y1="56.979671875" x2="122.568725" y2="56.98231875" width="0.508" layer="1"/>
 <via x="122.568725" y="56.98231875" extent="1-16" drill="0.35"/>
-<wire x1="122.568725" y1="56.98231875" x2="120.170703125" y2="54.584296875" width="0.508" layer="16"/>
-<wire x1="120.170703125" y1="54.584296875" x2="103.5256125" y2="54.584296875" width="0.508" layer="16"/>
-<wire x1="103.5256125" y1="54.584296875" x2="102.54115625" y2="55.568753125" width="0.508" layer="16"/>
-<via x="102.54115625" y="55.568753125" extent="1-16" drill="0.35"/>
-<wire x1="102.54115625" y1="55.568753125" x2="102.54115625" y2="57.578775" width="0.508" layer="1"/>
-<wire x1="102.54115625" y1="57.578775" x2="106.216803125" y2="61.254421875" width="0.508" layer="1"/>
+<wire x1="122.568725" y1="56.98231875" x2="119.670703125" y2="54.084296875" width="0.508" layer="16"/>
+<wire x1="119.670703125" y1="54.084296875" x2="103.5256125" y2="54.084296875" width="0.508" layer="16"/>
+<wire x1="103.5256125" y1="54.084296875" x2="103.04115625" y2="54.568753125" width="0.508" layer="16"/>
+<via x="103.04115625" y="54.568753125" extent="1-16" drill="0.35"/>
+<wire x1="103.04115625" y1="54.568753125" x2="103.04115625" y2="58.078775" width="0.508" layer="1"/>
+<wire x1="103.04115625" y1="58.078775" x2="106.216803125" y2="61.254421875" width="0.508" layer="1"/>
 <via x="106.216803125" y="61.254421875" extent="1-16" drill="0.35"/>
 <wire x1="106.216803125" y1="61.254421875" x2="106.216803125" y2="64.607209375" width="0.508" layer="16"/>
 <wire x1="106.216803125" y1="64.607209375" x2="107.022715625" y2="65.413121875" width="0.508" layer="16"/>
@@ -1535,6 +1542,16 @@ design rules under a new name.</description>
 <wire x1="129.442259375" y1="13.185615625" x2="127.493228125" y2="13.185615625" width="1.016" layer="1"/>
 <wire x1="130.84425" y1="11.783625" x2="129.442259375" y2="13.185615625" width="1.016" layer="1"/>
 </signal>
+<signal name="N$1">
+<contactref element="U1" pad="4"/>
+<contactref element="C2" pad="2"/>
+<wire x1="109.31525" y1="18.1" x2="115.4" y2="18.1" width="0.508" layer="1"/>
+<wire x1="117" y1="16.5" x2="117" y2="14.8" width="0.508" layer="1"/>
+<wire x1="117" y1="14.8" x2="115.8" y2="13.6" width="0.508" layer="1"/>
+<wire x1="115.8" y1="13.6" x2="114.2028" y2="13.6" width="0.508" layer="1"/>
+<wire x1="114.2028" y1="13.6" x2="112.5028" y2="15.3" width="0.508" layer="1"/>
+<wire x1="115.4" y1="18.1" x2="117" y2="16.5" width="0.508" layer="1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -1546,6 +1563,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
