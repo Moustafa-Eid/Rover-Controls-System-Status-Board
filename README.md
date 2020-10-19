@@ -22,7 +22,17 @@ Create a LED status board to display if other boards on the rover are working. A
 - The top plane was made as the 5V plane, therefore reducing the amount of wires on the board. 
 
 **Final Design**
-<img src="Schematic.png">
-<img src="Board.png">
-<img src="BoardRatsnest.png">
-<img src="LEDStatusBoard.png">
+<p align="center">
+  <img src="Schematic.png">
+</p>
+<p align="center">
+  <img src="Board.png">
+</p>
+<p align="center">
+  <img src="BoardRatsnest.png">
+</p>
+<p align="center">
+  <img src="LEDStatusBoard.png">
+</p>
+
+
