@@ -23,16 +23,16 @@ Create a LED status board to display if other boards on the rover are working. A
 
 **Final Design**
 <p align="center">
-  <img src="Schematic.png">
+  <img src="Images/Schematic.png">
 </p>
 <p align="center">
-  <img src="Board.png">
+  <img src="Images/Board.png">
 </p>
 <p align="center">
-  <img src="BoardRatsnest.png">
+  <img src="Images/BoardRatsnest.png">
 </p>
 <p align="center">
-  <img src="LEDStatusBoard.png">
+  <img src="Images/LEDStatusBoard.png">
 </p>
 
 
