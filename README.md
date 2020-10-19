@@ -6,7 +6,7 @@ Create a LED status board to display if other boards on the rover are working. A
 
 **Block Diagram:**
 
-<img src="Rover Block Diagram.png">
+<img src="Images/Rover Block Diagram.png">
 
 
 **My Process**
